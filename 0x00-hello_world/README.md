@@ -1,1 +1,1 @@
-This is HELLO WORLD readme
+this is my c-programming readme
