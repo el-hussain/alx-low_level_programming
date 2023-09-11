@@ -1,30 +1,23 @@
+/*
+ * File: 2-print_alphabet.c
+ * Auth: Hussaini suleiman
+ */
+
 #include <stdio.h>
 
 /**
- * main - Prints all possible different combinations of two digits,
- *        in ascending order, separated by a comma followed by a space.
+ * main - Prints the lowercase alphabets in descending order from a-z.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-int digit_one, digit_two;
+char low_alphabet;
 
-for (digit_one = 0; digit_one < 9; digit_one++)
+for (low_alphabet = 'a'; low_alphabet <= 'z'; low_alphabet++)
 {
-for (digit_two = digit_one + 1; digit_two < 10; digit_two++)
-{
-putchar((digit_one % 10) + '0');
-putchar((digit_two % 10) + '0');
-if (digit_one == 8 && digit_two == 9)
-{
-continue;
-}
-putchar(',');
-putchar(' ');
-}
+putchar(low_alphabet);
 }
 putchar('\n');
-
 return (0);
 }
