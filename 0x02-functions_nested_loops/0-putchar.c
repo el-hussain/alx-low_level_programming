@@ -1,16 +1,12 @@
-/*
- * File: 0-putchar.c
- * Auth: Hussaini suleiman
- */
-
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main - Prints "_putchar", followed by a new line.
- *
- * Return: Always 0.
- */
+ * main - print _putchar
+ * is written by bwave
+ * Return: always return 0
+*/
 int main(void)
+ {
 {
 putchar('_');
 putchar('p');
@@ -20,7 +16,7 @@ putchar('c');
 putchar('h');
 putchar('a');
 putchar('r');
+}
 putchar('\n');
-
 return (0);
 }
