@@ -27,5 +27,6 @@ int main(void)
     free(i);
     free(f);
     free(d);
-    return (0);
+    return (98);
+
 }
